@@ -10,3 +10,15 @@
 		There is a time that you don't want the changes from remote repository.
 		BY pulling changes manually, we have more freedom during the work
 		process.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+		forks: clone other people's repo on github directly to your github repo.
+					 no permission to commit to the original repo. The owner has to 
+					 add you as a collabrator.
+
+		clones: clone local or/and remote/github repos to your local repo.
+
+		branches: branches are on a single repo. You can push and pull branches.
+							You can only create a branches on a single repo.
+							
