@@ -1,5 +1,7 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
     1. away from my personal computer where my local repo is.
+        (Having a remote repository, it means that I can work on projects anywhere and anytime.
+         It could be at School Library or CS Labs, etc.)
     2. open source files
     3. collaborations with others
     
