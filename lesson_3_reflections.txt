@@ -5,3 +5,8 @@
     2. open source files
     3. collaborations with others
     
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+		There is a time that you don't want the changes from remote repository.
+		BY pulling changes manually, we have more freedom during the work
+		process.
