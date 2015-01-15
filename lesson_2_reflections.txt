@@ -23,13 +23,22 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	Experiment, different goals, etc.
-	By using branches, we can main our already established project intact and 
-	continue to improve the project. At the same time, we can experiment other
-	new features, or slightly off track with our original goal without breaking
-	our project apart.
+	Experiment, development, different goals, etc.
+	By using branches, we can maintain our already established production code
+	intact and continue to improve the project. At the same time, we can 
+	experiment other new features, keep development code separate from production, 
+	or slightly off track with our original goal without breaking our project apart.
 
 How do the diagrams help you visualize the branch structure?
+
+	It helps me to clearly see through the relationships between branches, and
+	reachability. Check out a earlier commit from a branch creates 'detached HEAD'
+	thus, if you commit it again it would be un-reachable. In order to avoid this
+	problem, we have to create a new branch for it before commit again.
+	The command for this is: git -b new_branch_name
+		this is actually 2 commands combined into one:
+			1. git branch new_branch_name 
+			2. git checkout new_branch_name
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
