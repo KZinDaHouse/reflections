@@ -1,24 +1,33 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
-    1. away from my personal computer where my local repo is.
-        (Having a remote repository, it means that I can work on projects anywhere and anytime.
-         It could be at School Library or CS Labs, etc.)
-    2. open source files
-    3. collaborations with others
-    
-2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	
+	1. away from my personal computer where my local repo is.
+	(Having a remote repository, it means that I can work on projects anywhere
+	and anytime. It could be at School Library or CS Labs, etc.)
 
-		There is a time that you don't want the changes from remote repository.
-		BY pulling changes manually, we have more freedom during the work
-		process.
+	2. open source files
+
+	3. collaborations with others
+
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	
+	There is a time that you don't want the changes from remote repository.
+	BY pulling changes manually, we have more freedom during the work process.
+
 
 3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	
+	forks: clone other people's repo on github directly to your github repo.
+	       no permission to commit to the original repo. The owner has to add 
+	       you as a collabrator.
+	
+	clones: clone local or/and remote/github repos to your local repo.
+	
+	branches: branches are on a single repo. You can push and pull branches.
+	          You can only create a branches on a single repo.
 
-		forks: clone other people's repo on github directly to your github repo.
-					 no permission to commit to the original repo. The owner has to 
-					 add you as a collabrator.
 
-		clones: clone local or/and remote/github repos to your local repo.
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
-		branches: branches are on a single repo. You can push and pull branches.
-							You can only create a branches on a single repo.
-							
+	To see what has been changed compare to your local states. Can work offline
+	to update and sync with the remote branch.
